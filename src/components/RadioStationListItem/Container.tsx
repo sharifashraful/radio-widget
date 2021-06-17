@@ -15,7 +15,7 @@ interface Props {
 const Container: React.FC<Props> = (props: Props) => {
   const {stationName, frequency} = props.radioStation;
   const {radioStation, isLastItem, onStationSelected, isSelected} = props;
-	const handleStationSelection = () => {
+  const handleStationSelection = () => {
     onStationSelected(radioStation);
   }
   const formatFrequency = (frequency: string): string => {
@@ -24,7 +24,7 @@ const Container: React.FC<Props> = (props: Props) => {
   }
 
   return(
-		<div className={styles.container} >
+    <div className={styles.container} >
       {
         isSelected? (
           <RadioPlayer />
@@ -39,7 +39,7 @@ const Container: React.FC<Props> = (props: Props) => {
         </div>       
       </div>
     </div>
-	)
+  )
 }
 
 export default memo(Container);
