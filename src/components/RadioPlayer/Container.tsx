@@ -21,7 +21,7 @@ const Container: React.FC<Props> = (props: Props) => {
 			<div className={styles.playerContainer}>
 				<button onClick={handleMinus} className={styles.minusButton}>
 					<img src={MinusIcon} alt="minus" />
-				</button>				
+				</button>
 				<img src={RadioPic} alt="radio pic" />
 				<button onClick={handlePlus} className={styles.plusButton}>
 					<img src={PinusIcon} alt="plus" />
