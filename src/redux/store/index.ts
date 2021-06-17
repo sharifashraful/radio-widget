@@ -16,9 +16,9 @@ const reducer = persistCombineReducers(persistConfig, {
 });
 
 const configureStore = () => {
-	let store = createStore(reducer, applyMiddleware(...middlewares));
-	let persistor = persistStore(store);
-	return { store, persistor };
+  let store = createStore(reducer, applyMiddleware(...middlewares));
+  let persistor = persistStore(store);
+  return { store, persistor };
 };
 
 export default configureStore;

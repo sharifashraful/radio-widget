@@ -3,14 +3,14 @@ import {
   AppState
 } from "../../@types/reducerType";
 import {
-	setRadioStationList,
+  setRadioStationList,
   resetSelectedStation
 } from "../actions"
 // import Fetch from "./fetch";
 
 export const fetchRadioStation = () => {
 
-	return (dispatch: Dispatch, getState: () => AppState ) => {
+  return (dispatch: Dispatch, getState: () => AppState ) => {
     
     // State value
     // const {radio: {stationList}} = getState();
@@ -70,7 +70,7 @@ export const fetchRadioStation = () => {
       });
     */
 
-	}
+  }
 }
 
 

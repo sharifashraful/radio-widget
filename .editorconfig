@@ -11,7 +11,7 @@ trim_trailing_whitespace = true
 
 [*.ipf]
 charset = utf-8
-indent_style = space
+indent_style = tab
 indent_size = 2
 
 [*.{bat,vcproj,vcxproj,sln,vbs,rc}]

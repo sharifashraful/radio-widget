@@ -1,7 +1,7 @@
 .backButton {
-    order: 0;
-    border: 0;
-    margin-left: 20px;
-    cursor: pointer;
-    composes: headerColor from global;
+  order: 0;
+  border: 0;
+  margin-left: 20px;
+  cursor: pointer;
+  composes: headerColor from global;
 }

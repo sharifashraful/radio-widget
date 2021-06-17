@@ -1,35 +1,35 @@
 .fixedFooter {
-    position: fixed;
-    height: 140px;
-    bottom: 0;
-    composes: bodyBgColor from global;
-    composes: appContainerWidth from global;
+  position: fixed;
+  height: 140px;
+  bottom: 0;
+  composes: bodyBgColor from global;
+  composes: appContainerWidth from global;
 }
 
 .fixedFooterInner {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background: #22222b;
-    color: #fff;
-    bottom: 40px;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    border-bottom-left-radius: 32px;
-    border-bottom-right-radius: 32px;    
-    box-shadow: 0px 15px 50px -32px rgb(0, 0, 0); 
-    border-top: 2px solid rgb(62, 64, 75);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #22222b;
+  color: #fff;
+  bottom: 40px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;    
+  box-shadow: 0px 15px 50px -32px rgb(0, 0, 0); 
+  border-top: 2px solid rgb(62, 64, 75);
 }
 
 .goldColor {
-    color: #eeae61;
+  color: #eeae61;
 }
 
 .selectedStationStyle {
-    color: #9da6b9;
-    font-size: 1.7em;
-    font-weight: bold;
+  color: #9da6b9;
+  font-size: 1.7em;
+  font-weight: bold;
 }

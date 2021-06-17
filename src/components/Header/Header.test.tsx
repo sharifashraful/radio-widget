@@ -12,10 +12,10 @@ describe("Header Component", () => {
   beforeEach(() => {
     renderer =  ReactTestRenderer.create(
       <Header>
-				<Header.Title title="Stations" />
-				<Header.LogoutButton logout={()=>{}} />
-				<Header.BackButton goBack={()=>{}} />
-			</Header>
+        <Header.Title title="Stations" />
+        <Header.LogoutButton logout={()=>{}} />
+        <Header.BackButton goBack={()=>{}} />
+      </Header>
     );
   });
 

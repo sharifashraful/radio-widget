@@ -7,29 +7,28 @@ P
 P;
 
 export interface RsRefForwardingComponent<T extends React.ElementType, P = unknown> {
-	<As extends React.ElementType = T>(
-	  props: React.PropsWithChildren<ReplaceProps<As, WithAsProps<As> & P>>,
-	  context?: any
-	): React.ReactElement | null;
-	propTypes?: any;
-	contextTypes?: any;
-	defaultProps?: Partial<P>;
-	displayName?: string;
-	
+  <As extends React.ElementType = T>(
+    props: React.PropsWithChildren<ReplaceProps<As, WithAsProps<As> & P>>,
+    context?: any
+  ): React.ReactElement | null;
+  propTypes?: any;
+  contextTypes?: any;
+  defaultProps?: Partial<P>;
+  displayName?: string;
 }
 
 export interface StandardProps {
-    /** The prefix of the component CSS class */
-    classPrefix?: string;
+  /** The prefix of the component CSS class */
+  classPrefix?: string;
 
-    /** Additional classes */
-    className?: string;
+  /** Additional classes */
+  className?: string;
 
-    /** Primary content */
-    children?: React.ReactNode;
+  /** Primary content */
+  children?: React.ReactNode;
 
-    /** Additional style */
-    style?: React.CSSProperties;
+  /** Additional style */
+  style?: React.CSSProperties;
 }
 
 export interface WithAsProps<As extends React.ElementType | string = React.ElementType> extends StandardProps

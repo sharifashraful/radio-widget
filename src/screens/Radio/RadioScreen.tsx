@@ -7,25 +7,25 @@ type Props = {}
 
 const RadioScreen: React.FC<Props> = (props: Props) => {
 
-	const goBack = () => {
-		alert("go back..")
-	}
+  const goBack = () => {
+    alert("go back..")
+  }
 
-	const logout = () => {
-		alert("logout")
-	}
-	
-	return(
-		<div>
-			<Header>
-				<Header.Title title="Stations" />
-				<Header.LogoutButton logout={logout} />
-				<Header.BackButton goBack={goBack} />
-			</Header>
-			<RadioStationList />
-			<Footer />
-		</div>
-	);
+  const logout = () => {
+    alert("logout")
+  }
+  
+  return(
+    <div>
+      <Header>
+        <Header.Title title="Stations" />
+        <Header.LogoutButton logout={logout} />
+        <Header.BackButton goBack={goBack} />
+      </Header>
+      <RadioStationList />
+      <Footer />
+    </div>
+  );
 }
 
 export default RadioScreen;

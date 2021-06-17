@@ -1,21 +1,21 @@
 .fixedHeader {
-    position: fixed;
-    height: 140px;
-    top: 0px;    
-    composes: bodyBgColor from global;
-    composes: appContainerWidth from global;
+  position: fixed;
+  height: 140px;
+  top: 0px;    
+  composes: bodyBgColor from global;
+  composes: appContainerWidth from global;
 }
 
 .fixedHeaderInner {
-    color: #fff;
-    height: 100px;
-    position: absolute;
-    top: 40px;
-    width: 100%;
-    border-top-left-radius: 32px;
-    border-top-right-radius: 32px;    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;    
-    composes: headerColor from global;
+  color: #fff;
+  height: 100px;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;    
+  composes: headerColor from global;
 }
