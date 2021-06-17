@@ -1,0 +1,56 @@
+:global(.headerColor) {
+  background-color: #eeae61;
+}
+
+:global(.bodyBgColor) {
+  background-color: #20202b;
+}
+
+:global(.listBgColor) {
+  background-color: #2b2b36;
+}
+
+:global(.appContainerWidth) {
+  width: 35%;
+}
+
+.container{
+  composes: appContainerWidth from global;
+  position: relative;
+  margin: 40px auto 40px auto; /* Center the DIV horizontally */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  :global(.appContainerWidth) {
+    width: 90%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  :global(.appContainerWidth) {
+    width: 80%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  :global(.appContainerWidth) {
+    width: 70%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  :global(.appContainerWidth) {
+    width: 50%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  :global(.appContainerWidth) {
+    width: 35%;
+  }
+}

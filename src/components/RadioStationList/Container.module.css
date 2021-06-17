@@ -1,0 +1,10 @@
+.container {
+  position: fixed;
+  color: #a3acbe;
+  top: 140px;
+  bottom: 140px;
+  background-color: #2b2b36;
+  overflow: auto;
+  composes: listBgColor from global;
+  composes: appContainerWidth from global;
+}

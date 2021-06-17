@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.containerItem {
+  margin: 0 20px;
+  padding: 25px 0;
+  border-bottom: 2px solid #43434d;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.noBorder {
+  border: none;
+}
+
+.frequency {
+  font-weight: bold;
+}
